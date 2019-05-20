@@ -1,1 +1,1 @@
-# blog
+# blog for writing anything
