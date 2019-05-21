@@ -85,21 +85,17 @@
 \int 2x + \sum_{2}^{3} 4x
 $$</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">``</span><span style="color:#960050;background-color:#1e0010">`</span>python
-ips <span style="color:#f92672">=</span> {}
+<pre><code class="language-python">ips = {}
 
-fh <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;/var/log/nginx/access.log&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>)<span style="color:#f92672">.</span>readlines()
-<span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> fh:
-    ip <span style="color:#f92672">=</span> line<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)[<span style="color:#ae81ff">0</span>]
-    <span style="color:#66d9ef">if</span> <span style="color:#ae81ff">6</span> <span style="color:#f92672">&lt;</span> len(ip) <span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">15</span>:
-        ips[ip] <span style="color:#f92672">=</span> ips<span style="color:#f92672">.</span>get(ip, <span style="color:#ae81ff">0</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">print</span> ips</code></pre></div>
+fh = open(&quot;/var/log/nginx/access.log&quot;, &quot;r&quot;).readlines()
+for line in fh:
+    ip = line.split(&quot; &quot;)[0]
+    if 6 &lt; len(ip) &lt;=15:
+        ips[ip] = ips.get(ip, 0) + 1
+print ips
+</code></pre>
 
-<pre><code>
-
-
-```c++
-if (x &gt; 0)
+<pre><code class="language-c++">if (x &gt; 0)
   cout &lt;&lt; &quot;x is positive&quot;;
 else if (x &lt; 0)
   cout &lt;&lt; &quot;x is negative&quot;;
