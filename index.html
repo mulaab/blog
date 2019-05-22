@@ -48,7 +48,7 @@
 			<a class="menu__link" href="/blog/post/goisforlovers/">(Hu)go Template Primer</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/blog/about/">About Hugo</a>
+			<a class="menu__link" href="/blog/about/">Aboutme</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/blog/post/hugoisforlovers/">Getting Started with Hugo</a>
@@ -101,6 +101,25 @@
 	<div class="content list__excerpt post__content clearfix">
 		Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
 We&rsquo;ll start with creating a new site with a very basic template.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/blog/post/migrate-from-jekyll/" rel="bookmark">
+			Migrate to Hugo from Jekyll
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2014-05-10T00:00:00">May 10, 2014</time>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -161,25 +180,6 @@ Step 2. Build the Docs Hugo has its own example site which happens to also be th
 Follow the following steps:
  Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
 	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/blog/post/migrate-from-jekyll/" rel="bookmark">
-			Migrate to Hugo from Jekyll
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2014-03-10T00:00:00">March 10, 2014</time>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/ ▾ images/ logo.png  should become
-▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
-	</div>
 </article>
 </main>
 
@@ -200,9 +200,9 @@ Follow the following steps:
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/blog/post/basic-elements/">Basic HTML Elements</a></li>
 			<li class="widget__item"><a class="widget__link" href="/blog/post/creating-a-new-theme/">Creating a New Theme</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
 			<li class="widget__item"><a class="widget__link" href="/blog/post/goisforlovers/">(Hu)go Template Primer</a></li>
 			<li class="widget__item"><a class="widget__link" href="/blog/post/hugoisforlovers/">Getting Started with Hugo</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
 		</ul>
 	</div>
 </div>
@@ -220,6 +220,7 @@ Follow the following steps:
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/blog/tags/basic-elements" title="Basic elements">Basic elements</a>
 		<a class="widget-taglist__link widget__link btn" href="/blog/tags/css" title="Css">Css</a>
+		<a class="widget-taglist__link widget__link btn" href="/blog/tags/dasar" title="Dasar">Dasar</a>
 		<a class="widget-taglist__link widget__link btn" href="/blog/tags/development" title="Development">Development</a>
 		<a class="widget-taglist__link widget__link btn" href="/blog/tags/go" title="Go">Go</a>
 		<a class="widget-taglist__link widget__link btn" href="/blog/tags/golang" title="Golang">Golang</a>
