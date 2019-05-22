@@ -32,10 +32,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://mulaab.github.io/blog/post/migrate-from-jekyll/</link>
+      <link>https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/</link>
       <pubDate>Sat, 10 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mulaab.github.io/blog/post/migrate-from-jekyll/</guid>
+      <guid>https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
