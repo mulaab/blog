@@ -13,19 +13,19 @@
     
     <item>
       <title>Basic HTML Elements</title>
-      <link>https://mulaab.github.io/blog/post/basic-elements/</link>
+      <link>https://mulaab.github.io/blog/post/210519-basic-elements/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mulaab.github.io/blog/post/basic-elements/</guid>
+      <guid>https://mulaab.github.io/blog/post/210519-basic-elements/</guid>
       <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://mulaab.github.io/blog/post/goisforlovers/</link>
+      <link>https://mulaab.github.io/blog/post/190519-hugois/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mulaab.github.io/blog/post/goisforlovers/</guid>
+      <guid>https://mulaab.github.io/blog/post/190519-hugois/</guid>
       <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
