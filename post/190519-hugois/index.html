@@ -23,9 +23,9 @@ similarities in Go templates." />
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
-	<link rel="stylesheet" href="/blog/css/style.css">
+	<link rel="stylesheet" href="https://mulaab.github.io/blog/css/style.css">
 	
-	<link rel="shortcut icon" href="/blog/favicon.ico">
+	<link rel="shortcut icon" href="https://mulaab.github.io/blog/favicon.ico">
 		
 </head>
 <body class="body">
@@ -33,7 +33,7 @@ similarities in Go templates." />
 		<header class="header">
 	<div class="container">
 		<div class="logo">
-			<a class="logo__link" href="/blog/" title="@M0ula__ab" rel="home">
+			<a class="logo__link" href="https://mulaab.github.io/blog/" title="@M0ula__ab" rel="home">
 				<div class="logo__title">@M0ula__ab</div>
 				<div class="logo__tagline">Only Share it</div>
 			</a>
@@ -45,16 +45,19 @@ similarities in Go templates." />
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/blog/post/200519-migrate-from-jekyll/">Jekyll migration</a>
+			<a class="menu__link" href="https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/">Jekyll migration</a>
 		</li>
 		<li class="menu__item menu__item--active">
-			<a class="menu__link" href="/blog/post/190519-hugois/">(Hu)go Template Primer</a>
+			<a class="menu__link" href="https://mulaab.github.io/blog/post/190519-hugois/">(Hu)go Template Primer</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/blog/about/">Aboutme</a>
+			<a class="menu__link" href="https://mulaab.github.io/blog/about/">Aboutme</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/blog/post/hugoisforlovers/">Getting Started with Hugo</a>
+			<a class="menu__link" href="https://mulaab.github.io/blog/post/hugoisforlovers/">Getting Started with Hugo</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://mulaab.github.io/blog/regresi-linier/">notebook</a>
 		</li>
 	</ul>
 </nav>
@@ -76,12 +79,12 @@ similarities in Go templates." />
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/blog/categories/development" rel="category">Development</a>, <a class="meta__link" href="/blog/categories/golang" rel="category">golang</a></span>
+	<span class="meta__text"><a class="meta__link" href="https://mulaab.github.io/blog/categories/development" rel="category">Development</a>, <a class="meta__link" href="https://mulaab.github.io/blog/categories/golang" rel="category">golang</a></span>
 </div>
 </div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/blog/img/placeholder.png" alt="(Hu)go Template Primer">
+			<img src="https://mulaab.github.io/blog/img/placeholder.png" alt="(Hu)go Template Primer">
 		</figure><div class="content post__content clearfix">
 			<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -139,7 +142,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="/layout/variables">variables</a> page.</p>
+<a href="https://mulaab.github.io/blog/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
 
@@ -156,7 +159,7 @@ page you are rendering. More details are available on the
 
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="/layout/functions">Hugo template
+available functions with their own. <a href="https://mulaab.github.io/blog/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -344,7 +347,7 @@ you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://mulaab.github.io/blog/content/front-matter">front matter</a>.</p>
 
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -423,11 +426,11 @@ so, such as in this example:</p>
 <div class="post__tags tags clearfix">
 	<svg class="tags__icon icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/go/" rel="tag">go</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/golang/" rel="tag">golang</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/templates/" rel="tag">templates</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/themes/" rel="tag">themes</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/development/" rel="tag">development</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://mulaab.github.io/blog/tags/go/" rel="tag">go</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://mulaab.github.io/blog/tags/golang/" rel="tag">golang</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://mulaab.github.io/blog/tags/templates/" rel="tag">templates</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://mulaab.github.io/blog/tags/themes/" rel="tag">themes</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="https://mulaab.github.io/blog/tags/development/" rel="tag">development</a></li>
 	</ul>
 </div>
 	</article>
@@ -435,45 +438,40 @@ so, such as in this example:</p>
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="John Doe avatar" src="/blog/img/avatar.png" class="avatar" height="90" width="90">
+		<img alt="   Mulaab avatar" src="https://avatars3.githubusercontent.com/u/4085973?s=460&amp;v=4" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
-		<span class="authorbox__name">About John Doe</span>
+		<span class="authorbox__name">About    Mulaab</span>
 	</div>
 	<div class="authorbox__description">
-		John Doe&#39;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
+		I am lecture at Trunojoyo University.
 	</div>
 </div>
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/blog/post/hugoisforlovers/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Getting Started with Hugo</p></a>
+		<a class="post-nav__link" href="https://mulaab.github.io/blog/post/hugoisforlovers/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Getting Started with Hugo</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/blog/post/200519-migrate-from-jekyll/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Migrate to Hugo from Jekyll</p></a>
+		<a class="post-nav__link" href="https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Migrate to Hugo from Jekyll</p></a>
 	</div>
 </nav>
 
 
 			</div>
-			<aside class="sidebar"><div class="widget-search widget">
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://mulaab.github.io/blog/" />
-	</form>
-</div>
+			<aside class="sidebar">
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/blog/post/210519-basic-elements/">Basic HTML Elements</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/post/creating-a-new-theme/">Creating a New Theme</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/post/200519-migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/post/190519-hugois/">(Hu)go Template Primer</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/post/hugoisforlovers/">Getting Started with Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/220519-penulis-terbaik/">Menjadi Penulis Terbaik</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/210519-basic-elements/">Basic HTML Elementsku</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/creating-a-new-theme/">Creating a New Theme</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/190519-hugois/">(Hu)go Template Primer</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/hugoisforlovers/">Getting Started with Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/menjadi-penulis-ieee-yang-profesional/"></a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/post/praproses-data/"></a></li>
 		</ul>
 	</div>
 </div>
@@ -481,24 +479,24 @@ so, such as in this example:</p>
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/blog/categories/development">Development</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/categories/golang">Golang</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/categories/development">Development</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://mulaab.github.io/blog/categories/golang">Golang</a></li>
 		</ul>
 	</div>
 </div>
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/basic-elements" title="Basic elements">Basic elements</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/css" title="Css">Css</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/dasar" title="Dasar">Dasar</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/development" title="Development">Development</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/go" title="Go">Go</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/golang" title="Golang">Golang</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/html" title="Html">Html</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/hugo" title="Hugo">Hugo</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/templates" title="Templates">Templates</a>
-		<a class="widget-taglist__link widget__link btn" href="/blog/tags/themes" title="Themes">Themes</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/basic-elements" title="Basic elements">Basic elements</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/css" title="Css">Css</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/dasar" title="Dasar">Dasar</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/development" title="Development">Development</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/go" title="Go">Go</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/golang" title="Golang">Golang</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/html" title="Html">Html</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/hugo" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/templates" title="Templates">Templates</a>
+		<a class="widget-taglist__link widget__link btn" href="https://mulaab.github.io/blog/tags/themes" title="Themes">Themes</a>
 	</div>
 </div>
 </aside>
@@ -513,7 +511,7 @@ so, such as in this example:</p>
 	</div>
 </footer>
 	</div>
-<script async defer src="/blog/js/menu.js"></script>
+<script async defer src="https://mulaab.github.io/blog/js/menu.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>

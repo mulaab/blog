@@ -6,13 +6,26 @@
     <description>Recent content in Dasar on @M0ula__ab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mulaab.github.io/blog/tags/dasar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Basic HTML Elements</title>
+      <title>Menjadi Penulis Terbaik</title>
+      <link>https://mulaab.github.io/blog/post/220519-penulis-terbaik/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mulaab.github.io/blog/post/220519-penulis-terbaik/</guid>
+      <description>Bismillah&amp;hellip;
+Menjadi penulis profesioanl pada IEEE..
+Woow&amp;hellip; keren judulnya. Padahal penulis
+Here&amp;rsquo;s a simple footnote,1 and here&amp;rsquo;s a longer one.2
+Indent paragraphs to include them in the footnote. `{ my code }` Add as many paragraphs as you like.  \int 2x  $$ \int 2x $$ belum 1 pernah tembus di jurnal tersebut&amp;hellip; Seorang guru akan dicontoh oleh muridnya, jika guru telah melakukan apa yang dibicarakan atau disampaikian. Abaikan saja tentang pernyataan itu.</description>
+    </item>
+    
+    <item>
+      <title>Basic HTML Elementsku</title>
       <link>https://mulaab.github.io/blog/post/210519-basic-elements/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
