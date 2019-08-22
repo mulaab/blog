@@ -3,148 +3,148 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mulaab.github.io/blog/</loc>
+    <loc>/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/basic-elements/</loc>
+    <loc>/tags/basic-elements/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/dasar/</loc>
+    <loc>/tags/dasar/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/categories/development/</loc>
+    <loc>/categories/development/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/220519-penulis-terbaik/</loc>
+    <loc>/post/220519-penulis-terbaik/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/</loc>
-    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mulaab.github.io/blog/tags/</loc>
+    <loc>/post/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/210519-basic-elements/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/210519-basic-elements/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/regresi-linier/</loc>
+    <loc>/regresi-linier/</loc>
     <lastmod>2015-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/creating-a-new-theme/</loc>
+    <loc>/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/200519-migrate-from-jekyll/</loc>
+    <loc>/post/200519-migrate-from-jekyll/</loc>
     <lastmod>2014-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/190519-hugois/</loc>
+    <loc>/post/190519-hugois/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/hugoisforlovers/</loc>
+    <loc>/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mulaab.github.io/blog/tags/go/</loc>
+    <loc>/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/categories/golang/</loc>
+    <loc>/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/golang/</loc>
+    <loc>/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/hugo/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/templates/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/tags/themes/</loc>
+    <loc>/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/menjadi-penulis-ieee-yang-profesional/</loc>
+    <loc>/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mulaab.github.io/blog/post/praproses-data/</loc>
+    <loc>/post/menjadi-penulis-ieee-yang-profesional/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/praproses-data/</loc>
     <priority>0</priority>
   </url>
   
