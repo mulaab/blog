@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on @M0ula__ab</title>
-    <link>/categories/</link>
+    <link>https://mulaab.github.io/blog/categories/</link>
     <description>Recent content in Categories on @M0ula__ab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mulaab.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Pribadi</title>
+      <link>https://mulaab.github.io/blog/categories/pribadi/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mulaab.github.io/blog/categories/pribadi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development</title>
-      <link>/categories/development/</link>
+      <link>https://mulaab.github.io/blog/categories/development/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/development/</guid>
+      <guid>https://mulaab.github.io/blog/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>/categories/golang/</link>
+      <link>https://mulaab.github.io/blog/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/golang/</guid>
+      <guid>https://mulaab.github.io/blog/categories/golang/</guid>
       <description></description>
     </item>
     
